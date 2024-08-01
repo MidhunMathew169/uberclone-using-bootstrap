@@ -1,0 +1,45 @@
+.row {
+    --bs-gutter-x: 0;
+}
+.container a{
+    cursor: pointer;
+}
+
+.nav-link{
+    color: aliceblue;
+}
+.btn{
+    border: none;
+    border-radius: 30%;
+}
+.content a{
+    text-decoration: none;
+    color: white;
+}
+.content h4{
+    color: white;
+}
+.content ul{
+    padding-left: 0;
+    list-style: none;
+}
+@media (min-width:1140px){
+    .footer-logo{
+        display: flex;
+        flex-wrap: wrap;
+        /*flex-direction: column;
+        gap: 4rem;*/
+        justify-content: space-between;
+    }
+    
+}
+.gap-5{
+    gap: 5rem !important;
+}
+.appstore{
+    width: 50%;
+    margin-top: 4rem;
+}
+.appstore img{
+    width: 10rem;
+}
